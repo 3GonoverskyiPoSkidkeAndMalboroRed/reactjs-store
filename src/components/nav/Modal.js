@@ -6,7 +6,7 @@ const body = document.querySelector("body");
 const screenBlur = {
   height: "inherit",
   width: "100%",
-  backgroundColor: "rgba(255, 255, 255, 0.3)",
+  backgroundColor: "red",
   // position: "-webkit-sticky",
   position: "fixed",
   zIndex: "2",

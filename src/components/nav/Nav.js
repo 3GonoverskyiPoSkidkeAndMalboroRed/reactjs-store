@@ -16,6 +16,7 @@ import { ReactComponent as ProfileIcon } from "../../img/profile.svg";
 import { useContext } from "react";
 import { CartContext } from "../../context/CartContext";
 import { useNavigate } from "react-router-dom";
+import logo from "../../img/semyon-maximov-f3fvbacl9lc.jpg";
 
 export default function Nav({ url }) {
   const { cartQtty } = useContext(CartContext);
@@ -23,7 +24,7 @@ export default function Nav({ url }) {
   return (
     <>
       <NavBar>
-        <NavIcon onClick={() => navigate("/")}>Logo</NavIcon>
+        <NavIcon onClick={() => navigate("/")}><img  alt='logo' /></NavIcon>
         <DropDownCont>
           <DropDownBtn>Catagories</DropDownBtn>
           <NavListCont>
@@ -53,12 +54,12 @@ export default function Nav({ url }) {
           </NavListCont>
         </DropDownCont>
         <IconCont>
-          <Search />
+          {/* <Search /> */}
           <HoverEffect>
-            <ProfileIcon
+            {/* <ProfileIcon
               onClick={() => navigate("/account")}
               style={{ margin: "0px 8px" }}
-            />
+            /> */}
           </HoverEffect>
           <HoverEffect>
             <span onClick={() => navigate("/cart")}>

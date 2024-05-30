@@ -7,10 +7,11 @@ export const NavBar = styled.nav`
   width: 100%;
   padding: 8px;
   padding-right: 24px;
-  background: #2f2f2f;
-  color: white;
+  background: black;
+  color: brown;
   align-items: center;
   z-index: 4;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 `;
 
 export const NavLinkCont = styled.li`
@@ -50,6 +51,7 @@ export const NavListCont = styled.ul`
   width: auto;
   justify-content: space-around;
   list-style: none;
+ 
   @media (max-width: 790px) {
     display: flex;
     opacity: 0;
@@ -82,18 +84,19 @@ export const NavIcon = styled.button`
   margin: auto 32px;
   border: none;
   background: none;
-  color: white;
+  color: red;
   cursor: pointer;
 `;
 
 export const Link = styled.button`
-  color: white;
+   color: red;
   background: none;
   border: none;
   text-decoration: none;
   line-height: 100%;
-  font-size: 0.8em;
+  font-size: 2em;
   cursor: pointer;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 `;
 
 export const Vl = styled.div`
@@ -110,6 +113,7 @@ export const IconCont = styled.div`
   margin: 0px 8px 0px auto;
   position: absolute;
   right: 16px;
+
 `;
 
 export const SearchField = styled.input`
