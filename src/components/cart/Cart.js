@@ -10,7 +10,7 @@ import {
   CheckoutDet,
   CheckoutBtn
 } from "../../styles/CartStyle";
-
+import React from 'react';
 export default function Cart({ url }) {
   const { cartArr, cartQtty, total } = useContext(CartContext);
   let navigate = useNavigate();

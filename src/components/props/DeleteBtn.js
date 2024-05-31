@@ -2,7 +2,7 @@ import { ReactComponent as RoundClose } from "../../img/round_close.svg";
 import { DelBtnStyle } from "../../styles/StyleComp";
 import { CartContext } from "../../context/CartContext";
 import { useState, useContext } from "react";
-
+import React from 'react';
 const shadowColor = "0px 2px 2px rgba(0, 0, 0, 0.4)";
 const shadowColor2 = "0px 2px 2px rgba(0, 0, 0, 0.4)";
 

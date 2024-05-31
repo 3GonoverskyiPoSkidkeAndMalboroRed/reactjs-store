@@ -3,7 +3,7 @@ import { getProducts } from "../../utils/utils";
 import ProductCard from "./ProductCard";
 import { ProductArrContainer } from "../../styles/ProductStyle";
 import { useParams } from "react-router-dom";
-
+import React from 'react';
 export default function DietProdArray({ url }) {
   const [products, setProducts] = useState([]);
   const params = useParams();

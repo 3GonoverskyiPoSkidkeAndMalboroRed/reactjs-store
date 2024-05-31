@@ -10,6 +10,7 @@ import {
   DropDownBtn,
   IconCont
 } from "../../styles/NavStyle";
+import React from 'react';
 import CartBtn from "../props/CartBtn";
 import Search from "./Search";
 import { ReactComponent as ProfileIcon } from "../../img/profile.svg";

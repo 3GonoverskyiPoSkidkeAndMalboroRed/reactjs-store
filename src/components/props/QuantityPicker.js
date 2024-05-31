@@ -1,4 +1,5 @@
 import { IncBtn, QuantityField } from "../../styles/StyleComp";
+import React from 'react';
 
 export default function QuantityPicker({ quantity, setQuantity }) {
   let increment = () => {

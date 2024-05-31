@@ -1,6 +1,8 @@
 import { useState, useEffect, useContext } from "react";
 import { getProducts } from "../../utils/utils";
 import StarReviews from "../props/StarReviews";
+import React from 'react';
+
 import {
   ProductImg,
   PriceTag,

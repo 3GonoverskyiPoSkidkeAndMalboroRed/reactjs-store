@@ -10,7 +10,7 @@ import {
 } from "../../styles/ProductStyle";
 import { CartContext } from "../../context/CartContext";
 import { useNavigate } from "react-router-dom";
-
+import React from 'react';
 export default function ProductCard({ data, setProductPage, setShowProduct }) {
   const { addItem } = useContext(CartContext);
   const navigate = useNavigate();

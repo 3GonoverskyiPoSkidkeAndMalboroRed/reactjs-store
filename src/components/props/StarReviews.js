@@ -1,5 +1,6 @@
 import { FrontStars } from "../../styles/StyleComp";
 import { ReactComponent as Star } from "../../img/star.svg";
+import React from 'react';
 
 export default function StarReview({ rating }) {
   return (

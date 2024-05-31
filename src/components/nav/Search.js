@@ -3,7 +3,7 @@ import { ReactComponent as SearchIcon } from "../../img/search.svg";
 import { HoverEffect } from "../../styles/StyleComp";
 import { SearchBar, SearchField, SBLabel } from "../../styles/NavStyle";
 import { useNavigate } from "react-router-dom";
-
+import React from 'react';
 export default function Search() {
   const [query, setQuery] = useState("");
   const navigate = useNavigate();

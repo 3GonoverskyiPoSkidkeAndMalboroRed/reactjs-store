@@ -1,6 +1,8 @@
 import { useContext } from "react";
 import { CartContext } from "../../context/CartContext";
 import { useNavigate } from "react-router-dom";
+import React from 'react';
+
 // import { fieldBox } from "../styles/CheckoutStyle";
 import {
   InputBox,

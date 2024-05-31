@@ -4,6 +4,7 @@ import ProductCard from "./ProductCard";
 import { ProductArrContainer, SortBtn } from "../../styles/ProductStyle";
 import Catagories from "./Catagories";
 import { useParams } from "react-router-dom";
+import React from 'react';
 
 export default function ProductArray() {
   const [products, setProducts] = useState([]);

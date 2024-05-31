@@ -6,7 +6,7 @@ import ProductArray from "./components/products/ProductArray";
 import ProductPage from "./components/products/ProductPage";
 import Checkout from "./components/cart/Checkout";
 import Account from "./components/Account";
-
+import React from 'react';
 export default function MyRouter() {
   const [url, setUrl] = useState("");
 

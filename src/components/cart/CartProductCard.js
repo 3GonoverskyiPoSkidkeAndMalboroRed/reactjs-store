@@ -1,5 +1,7 @@
 import { useState, useEffect, useContext } from "react";
 import { getProducts } from "../../utils/utils";
+import React from 'react';
+
 import {
   CartCardContainer,
   ProductTitleCart,
